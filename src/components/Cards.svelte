@@ -1,6 +1,5 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white py-12 ">
-    <div class="relative max-w-2xl mx-auto">
+    <div class="relative max-w-2xl mx-auto px-15">
         <h2
             class="text-xl tracking-tight font-extrabold text-gray-900 sm:text-2xl"
         >
@@ -19,8 +18,8 @@
                 <div class="flex-shrink-0">
                     <img
                         class="h-48 w-full object-cover"
-                        src="src/assets/images/farmers.jpg"
-                        alt="Story Image"
+                        src="https://hydroone.s3.ca-central-1.amazonaws.com/hydroone-1.jpg"
+                        alt="Farm Safely"
                     />
                 </div>
                 <!-- END Card Cover -->
@@ -68,8 +67,8 @@
                 <div class="flex-shrink-0">
                     <img
                         class="h-48 w-full object-cover"
-                        src="src/assets/images/strayvoltageassessmenthero.jpg"
-                        alt="Story Image"
+                        src="https://hydroone.s3.ca-central-1.amazonaws.com/hydroone-2.jpg"
+                        alt="Stray Voltage"
                     />
                 </div>
                 <!-- END Card Cover -->
@@ -117,8 +116,8 @@
                 <div class="flex-shrink-0">
                     <img
                         class="h-48 w-full object-cover"
-                        src="src/assets/images/internationalplowingmatch1.jpg"
-                        alt="Story Image"
+                        src="https://hydroone.s3.ca-central-1.amazonaws.com/hydroone-3.jpg"
+                        alt="International Plowing Match"
                     />
                 </div>
                 <!-- END Card Cover -->

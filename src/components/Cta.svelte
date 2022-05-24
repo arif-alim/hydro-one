@@ -1,7 +1,7 @@
 <div
     class="pb-16 bg-gradient-to-r from-hydroTeal via-hydroTealLight to-hydroTealLighter lg:pb-0 lg:z-10 lg:relative my-8"
 >
-    <div class="lg:mx-auto lg:max-w-2xl lg:grid lg:grid-cols-5 lg:gap-8">
+    <div class="lg:mx-auto lg:max-w-2xl lg:grid lg:grid-cols-5 lg:gap-8 px-15">
         <div class="relative lg:-my-8 col-span-2">
             <div
                 aria-hidden="true"
@@ -15,7 +15,7 @@
                 >
                     <img
                         class="object-cover object-left lg:h-full lg:w-full"
-                        src="src/assets/images/sentinel-light-at-sunset.jpg"
+                        src="https://hydroone.s3.ca-central-1.amazonaws.com/sentinel-light-at-sunset.jpg"
                         alt=""
                     />
                 </div>

@@ -1,5 +1,5 @@
 <div class="bg-gray-100">
-    <div class="max-w-2xl mx-auto py-4">
+    <div class="max-w-2xl mx-auto py-4 px-15">
         <nav class="flex items-center" aria-label="Breadcrumb">
             <ol role="list" class="flex items-center space-x-4">
                 <li>

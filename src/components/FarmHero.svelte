@@ -26,7 +26,7 @@
                 class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 style="background-color: rgba(0, 0, 0, 0.6);"
             >
-                <div class="flex max-w-2xl mx-auto items-center h-full">
+                <div class="flex max-w-2xl mx-auto items-center h-full px-15">
                     <div class="text-white px-md-0 w-3/4">
                         <h2 class="text-3xl font-semibold mb-4 lg:text-5xl">
                             Farmers

@@ -1,5 +1,5 @@
-<header class="bg-white max-w-2xl mx-auto container">
-    <div class=" lg:divide-y lg:divide-gray-200">
+<header class="bg-white max-w-2xl mx-auto container px-15">
+    <div class=" lg:divide-y lg:divide-gray-200 ">
         <div class="relative h-16 flex justify-between items-center">
             <div class="relative z-10 flex lg:px-0">
                 <div class="flex-shrink-0 flex items-center">
@@ -33,7 +33,7 @@
                 >
                     Newsroom
                 </a>
-                <div class="flex items-center">
+                <div class="hidden xl:flex items-center ">
                     <a
                         href="javascript:void(0)"
                         class="text-slate-900 hover:text-rose-600 flex items-center"
@@ -180,7 +180,7 @@
             </div>
         </div>
         <nav
-            class="hidden lg:py-4 lg:flex lg:justify-between items-center"
+            class="hidden lg:py-4 lg:flex lg:justify-between items-center "
             aria-label="Global"
         >
             <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
@@ -225,90 +225,155 @@
 
     <!-- Mobile menu, show/hide based on menu state. -->
     <nav class="lg:hidden" aria-label="Global" id="mobile-menu">
-        <div class="pt-2 pb-3 px-2 space-y-1">
-            <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
-            <a
-                href="#"
-                class="bg-gray-100 text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
-                aria-current="page">Dashboard</a
-            >
+        <div class="pt-2  px-2 space-y-4 divide-y divide-gray-200">
+            <div>
+                <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
+                <a
+                    href="#"
+                    class="bg-gray-100 text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+                    aria-current="page">About</a
+                >
 
-            <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
-                >Team</a
-            >
+                <a
+                    href="#"
+                    class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+                    >Sustainability</a
+                >
 
-            <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
-                >Projects</a
-            >
+                <a
+                    href="#"
+                    class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+                    >Newsroom</a
+                >
 
-            <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
-                >Calendar</a
-            >
-        </div>
-        <div class="border-t border-gray-200 pt-4 pb-3">
-            <div class="px-4 flex items-center">
-                <div class="flex-shrink-0">
-                    <img
-                        class="h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
-                    />
-                </div>
-                <div class="ml-3">
-                    <div class="text-base font-medium text-gray-800">
-                        Tom Cook
-                    </div>
-                    <div class="text-sz font-medium text-gray-500">
-                        tom@example.com
-                    </div>
-                </div>
                 <button
                     type="button"
-                    class="ml-auto flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-hydroTeal hover:bg-hydroTealLight focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-hydroTeal"
                 >
-                    <span class="sr-only">View notifications</span>
-                    <!-- Heroicon name: outline/bell -->
                     <svg
-                        class="h-6 w-6"
                         xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="2"
-                        stroke="currentColor"
-                        aria-hidden="true"
+                        class="-ml-0.5 mr-2 h-4 w-4"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
                     >
                         <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                            fill-rule="evenodd"
+                            d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z"
+                            clip-rule="evenodd"
                         />
                     </svg>
+                    Request a service
                 </button>
             </div>
-            <div class="mt-3 px-2 space-y-1">
+            <div class="space-y-1">
                 <a
                     href="#"
-                    class="block rounded-md py-2 px-3 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
-                    >Your Profile</a
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
                 >
-
+                    Residential Services
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
                 <a
                     href="#"
-                    class="block rounded-md py-2 px-3 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
-                    >Settings</a
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
                 >
-
+                    Business Services
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
                 <a
                     href="#"
-                    class="block rounded-md py-2 px-3 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
-                    >Sign out</a
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
                 >
+                    Rates & Billing
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
+                <a
+                    href="#"
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
+                >
+                    Saving Money & Energy
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
+                <a
+                    href="#"
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
+                >
+                    Power Outages & Safety
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
+                <a
+                    href="#"
+                    class="flex items-center text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 text-base font-medium"
+                >
+                    Support Centre & FAQs
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 ml-1.5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </a>
             </div>
         </div>
     </nav>

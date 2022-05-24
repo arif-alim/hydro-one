@@ -1,7 +1,7 @@
 <footer id="page-footer" class="bg-white ">
     <div>
         <div
-            class="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-2xl mx-auto container pt-16 pb-10"
+            class="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-2xl mx-auto container pt-16 pb-10 px-15"
         >
             <div class="space-y-4 col-span-2">
                 <div class="flex-shrink-0 flex items-center">
@@ -72,9 +72,9 @@
         </div>
         <hr class="" />
         <!-- This example requires Tailwind CSS v2.0+ -->
-        <div class="pt-8 pb-7 overflow-hidden">
+        <div class="pt-8 pb-7 overflow-hidden max-w-2xl mx-auto px-15">
             <nav
-                class="-mx-5 -my-2 flex flex-wrap justify-center"
+                class="-mx-5 -my-2 flex flex-wrap justify-center justify-between"
                 aria-label="Footer"
             >
                 <div class="px-5 py-2">
