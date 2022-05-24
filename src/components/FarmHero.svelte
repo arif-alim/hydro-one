@@ -4,7 +4,7 @@
     data-bs-ride="carousel"
 >
     <div
-        class="carousel-inner relative w-full overflow-hidden h-[500px] flex items-center"
+        class="carousel-inner relative w-full overflow-hidden md:h-[500px] flex items-center"
     >
         <div
             class="carousel-item active relative float-left w-full  bg-no-repeat bg-cover bg-center"
@@ -31,15 +31,23 @@
                         <h2 class="text-3xl font-semibold mb-4 lg:text-5xl">
                             Farmers
                         </h2>
-                        <h5 class="text-lg mb-6 tracking-wide leading-loose">
+                        <h5
+                            class="hidden md:flex text-tiny md:text-lg mb-6 tracking-wide md:leading-loose"
+                        >
                             We proudly serve the majority of farm and rural
                             customers throughout Ontario.
                             <br />
                             See if your large volume farm qualifies for the Ontario
                             Electricity Rebate
                         </h5>
+                        <h5
+                            class="flex md:hidden text-tiny md:text-lg mb-6 tracking-wide md:leading-loose"
+                        >
+                            We proudly serve the majority of farm and rural
+                            customers throughout Ontario.
+                        </h5>
 
-                        <div class="md:space-x-2">
+                        <div class="hidden md:flex md:space-x-2">
                             <a
                                 class="inline-block px-12 py-3 mb-2 md:mb-0 text-hydroTeal font-bold text-sm leading-tight uppercase rounded bg-white"
                                 href="#!">Apply Now</a

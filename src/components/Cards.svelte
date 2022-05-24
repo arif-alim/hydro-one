@@ -1,4 +1,4 @@
-<div class="relative bg-white py-12 ">
+<div class="relative bg-white md:py-12 py-6">
     <div class="relative max-w-2xl mx-auto px-15">
         <h2
             class="text-xl tracking-tight font-extrabold text-gray-900 sm:text-2xl"
@@ -8,7 +8,7 @@
         </h2>
 
         <div
-            class="mt-12 max-w-2xl mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
+            class="mt-6 md:mt-12 max-w-2xl mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"
         >
             <!-- Card -->
             <div

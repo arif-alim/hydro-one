@@ -3,7 +3,7 @@
         <div
             class="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-2xl mx-auto container pt-16 pb-10 px-15"
         >
-            <div class="space-y-4 col-span-2">
+            <div class="space-y-4 lg:col-span-2">
                 <div class="flex-shrink-0 flex items-center">
                     <img
                         class="block h-14 w-auto"
@@ -21,7 +21,7 @@
                     <abbr title="Phone">Monday to Friday:</abbr>7:30am - 8:00pm
                 </div>
             </div>
-            <div class="space-y-6 mt-5">
+            <div class="space-y-6 mt-5 ">
                 <h4
                     class="text-base uppercase font-semibold tracking-wider text-gray-600"
                 >
@@ -74,7 +74,7 @@
         <!-- This example requires Tailwind CSS v2.0+ -->
         <div class="pt-8 pb-7 overflow-hidden max-w-2xl mx-auto px-15">
             <nav
-                class="-mx-5 -my-2 flex flex-wrap justify-center justify-between"
+                class="-mx-5 -my-2 flex flex-wrap md:justify-between"
                 aria-label="Footer"
             >
                 <div class="px-5 py-2">
