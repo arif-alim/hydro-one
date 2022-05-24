@@ -11,47 +11,62 @@
                 </div>
             </div>
             <nav
-                class="hidden lg:py-2 lg:flex lg:space-x-8 items-center mt-1"
+                class="hidden lg:py-2 lg:flex lg:space-x-10 items-center mt-1"
                 aria-label="Top Nav"
             >
                 <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
                 <a
                     href="#"
-                    class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                    class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
                 >
                     About Us
                 </a>
                 <a
                     href="#"
-                    class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                    class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
                 >
                     Sustainability
                 </a>
                 <a
                     href="#"
-                    class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                    class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
                 >
                     Newsroom
                 </a>
+                <div class="flex items-center">
+                    <a
+                        href="javascript:void(0)"
+                        class="text-slate-900 hover:text-rose-600 flex items-center"
+                    >
+                        <img
+                            src="https://tailwindui.com/img/flags/flag-canada.svg"
+                            alt=""
+                            class="w-5 h-auto block flex-shrink-0"
+                        />
+                        <span class="ml-3 block text-sz font-medium">
+                            En Francais
+                        </span>
+                        <span class="sr-only">, change language</span>
+                    </a>
+                </div>
 
                 <button
                     type="button"
-                    class=" inline-flex justify-center items-center space-x-2 rounded border font-medium focus:outline-none px-4 py-1 text-sm border-teal bg-teal text-white hover:text-white hover:bg-teal hover:border-teal focus:ring focus:ring-teal focus:ring-opacity-50 active:bg-teal active:border-teal"
+                    class="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-hydroTeal hover:bg-hydroTealLight focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-hydroTeal"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        class="-ml-0.5 mr-2 h-4 w-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                     >
                         <path
-                            d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"
-                        />
-                        <path
-                            d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"
+                            fill-rule="evenodd"
+                            d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z"
+                            clip-rule="evenodd"
                         />
                     </svg>
-                    <span>Request a service</span>
+                    Request a service
                 </button>
             </nav>
             <div class="relative z-10 flex items-center lg:hidden">
@@ -114,7 +129,7 @@
             >
                 <button
                     type="button"
-                    class="flex-shrink-0 bg-white rounded-full p-1 text-gray-500 hover:text-teal focus:outline-none  mt-1"
+                    class="flex-shrink-0 bg-white rounded-full p-1 text-gray-500 hover:text-hydroTeal focus:outline-none  mt-1"
                 >
                     <span class="sr-only">Search</span>
                     <!-- Heroicon name: outline/bell -->
@@ -147,7 +162,7 @@
                             <span class="sr-only">Login / Register</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-7 w-7 text-gray-500 hover:text-white hover:bg-teal rounded-full"
+                                class="h-7 w-7 text-gray-500 hover:text-white hover:bg-hydroTeal rounded-full"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -171,37 +186,37 @@
             <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Residential Services
             </a>
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Business Services
             </a>
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Rates & Billing
             </a>
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Saving Money & Energy
             </a>
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Power Outages & Safety
             </a>
             <a
                 href="#"
-                class="text-gray-900 hover:text-teal inline-flex text-sm font-medium"
+                class="text-gray-900 hover:text-hydroTeal inline-flex text-sz font-medium"
             >
                 Support Centre & FAQs
             </a>
@@ -249,7 +264,7 @@
                     <div class="text-base font-medium text-gray-800">
                         Tom Cook
                     </div>
-                    <div class="text-sm font-medium text-gray-500">
+                    <div class="text-sz font-medium text-gray-500">
                         tom@example.com
                     </div>
                 </div>

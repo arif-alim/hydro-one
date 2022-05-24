@@ -26,30 +26,23 @@
                 class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
                 style="background-color: rgba(0, 0, 0, 0.6);"
             >
-                <div class="flex justify-center items-center h-full">
-                    <div class="text-white text-center px-14 px-md-0">
-                        <h2 class="text-3xl font-semibold mb-4">
-                            Learn Tailwind Elements
+                <div class="flex max-w-2xl mx-auto items-center h-full">
+                    <div class="text-white px-md-0 w-3/4">
+                        <h2 class="text-3xl font-semibold mb-4 lg:text-5xl">
+                            Farmers
                         </h2>
-                        <h5 class="text-lg font-semibold mb-6">
-                            Best & free guide of responsive web design
+                        <h5 class="text-lg mb-6 tracking-wide leading-loose">
+                            We proudly serve the majority of farm and rural
+                            customers throughout Ontario.
+                            <br />
+                            See if your large volume farm qualifies for the Ontario
+                            Electricity Rebate
                         </h5>
+
                         <div class="md:space-x-2">
                             <a
-                                type="button"
-                                class="inline-block px-6 py-2 mb-2 md:mb-0 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                                href="#!"
-                                role="button"
-                                data-mdb-ripple="true"
-                                data-mdb-ripple-color="light">Start tutorial</a
-                            >
-                            <a
-                                type="button"
-                                class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                                href="#!"
-                                role="button"
-                                data-mdb-ripple="true"
-                                data-mdb-ripple-color="light">Read more</a
+                                class="inline-block px-12 py-3 mb-2 md:mb-0 text-hydroTeal font-bold text-sm leading-tight uppercase rounded bg-white"
+                                href="#!">Apply Now</a
                             >
                         </div>
                     </div>
